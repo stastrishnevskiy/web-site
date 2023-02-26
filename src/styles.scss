@@ -1,0 +1,22 @@
+$font-size: 25px;
+$bg-red: green;
+
+body {
+    font-size: $font-size;
+    background: $bg-red;
+}
+
+.navbar {
+    .btn {
+        font-size: $font-size;
+        padding: 10px;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+        }
+    }
+}
