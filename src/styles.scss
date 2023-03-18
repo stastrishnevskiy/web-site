@@ -1,11 +1,17 @@
 @import "~normalize.css";
+@import "./button.scss";
 
 $font-size: 25px;
 $bg-red: brown;
 
 body {
+	font-family: sans-serif;
   font-size: $font-size;
   background: $bg-red;
+}
+
+.container {
+	padding: 10px;
 }
 
 .navbar {
@@ -21,4 +27,8 @@ body {
 				display: inline-block;
 		}
 	}
+}
+
+.title {
+	display: inline-block;
 }

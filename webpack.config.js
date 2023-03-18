@@ -114,7 +114,10 @@ module.exports = {
 	optimization: optimization(),
 	devServer: {
 		port: 3000,
-		hot: isDevelopment
+		hot: isDevelopment,
+		client: {
+			overlay: false
+		}
 	},
 	devtool: isDevelopment ? 'eval-source-map' : false,
 	plugins: plugins(),
