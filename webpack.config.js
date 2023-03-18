@@ -113,9 +113,8 @@ module.exports = {
 	},
 	optimization: optimization(),
 	devServer: {
-		port: 4200,
-		hot: isDevelopment,
-		static: './dist'
+		port: 3000,
+		hot: isDevelopment
 	},
 	devtool: isDevelopment ? 'eval-source-map' : false,
 	plugins: plugins(),
